@@ -1,0 +1,59 @@
+#TableContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Rows{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.Boxes{
+    width: 50%;
+}
+.BoxContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BoxesElements{
+    display: inline-block;
+    width: fit-content;
+    text-align: center;
+}
+.BoxContentWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+
+}
+.InnerBoxHeader{
+    font-size: 4vw;
+}
+
+.ImgWithDescreaption{
+    position: relative;
+}
+.Descraiption{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    top: 50%;
+}
+
+@media (max-width: 800px) {
+    .Boxes {
+      width: 100%;
+    }
+    .Rows {
+        flex-direction: column-reverse;
+    }
+
+    .SecondRow {
+        flex-direction: column
+    }
+  
+  }
