@@ -1,0 +1,15 @@
+#FooterAlbumDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* width: 100vw; */
+}
+.FooterImg{
+    width: 25%;
+}
+
+@media (max-width: 610px) {
+    .FooterImg{
+        width: 50%;
+    }
+  }
