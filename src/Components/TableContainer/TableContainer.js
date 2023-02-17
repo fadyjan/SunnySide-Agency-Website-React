@@ -12,14 +12,14 @@ function TableContainer() {
         <div className="Boxes BoxContent">
           <div className="BoxContentWrapper">
             <h1 className="BoxesElements InnerBoxHeader">
-              Transform your <br></br>brand
+              Transform your brand
             </h1>
             <p className="BoxesElements">
               We are a full-service creative agency specializing in helping
               brands grow fast. Engage your clients through compelling visuals
               that fo most of the marketing of you.
             </p>
-            <button className="BoxesElements">LEARN MORE</button>
+            <button className="BoxesElements Btns Yellow">LEARN MORE</button>
           </div>
         </div>
         <img className="Boxes InnerImgs" src={EggPhoto}></img>
@@ -29,14 +29,12 @@ function TableContainer() {
         <div className="Boxes BoxContent">
           <div className="BoxContentWrapper">
             <h1 className="BoxesElements InnerBoxHeader">
-              Transform your <br></br>brand
+              Stand out to the right audience
             </h1>
             <p className="BoxesElements">
-              We are a full-service creative agency specializing in helping
-              brands grow fast. Engage your clients through compelling visuals
-              that fo most of the marketing of you.
+              Using collaborative formula of desginers,researches,photographers,vdeographers, and copywrites, we'll build and extend your brand in digital places.
             </p>
-            <button className="BoxesElements">LEARN MORE</button>
+            <button className="BoxesElements Btns Red">LEARN MORE</button>
           </div>
         </div>
       </div>

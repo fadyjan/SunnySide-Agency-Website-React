@@ -26,6 +26,7 @@
 .BoxContentWrapper{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 65%;
 
 }
@@ -42,6 +43,21 @@
     flex-direction: column;
     width: 50%;
     top: 50%;
+}
+.Btns{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 17px;
+}
+.Yellow{
+    border-bottom: 6px solid hsl(51, 100%, 49%);
+
+}
+.Red{
+    border-bottom: 6px solid hsl(7, 99%, 70%);
+
 }
 
 @media (max-width: 800px) {
