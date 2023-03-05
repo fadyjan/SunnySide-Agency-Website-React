@@ -6,6 +6,7 @@
   align-items: center;
 }
 
+
 #ClientTestimonialsDiv {
   flex-grow: 2;
   display: flex;
@@ -51,6 +52,10 @@
 }
 
 @media (max-width: 1162px) {
+  
+#ClienttestimonialsHeader{
+  text-align: center;
+}
   .SingleReview {
     row-gap: 0%;
     align-items: center;

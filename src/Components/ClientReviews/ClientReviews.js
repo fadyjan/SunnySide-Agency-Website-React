@@ -10,12 +10,12 @@ function ClientReviews() {
   return (
     <div className="ClientReviewsDiv">
       <div id="ClientTestimonialsDiv">
-        <h1>{x.toUpperCase()}</h1>
+        <h1 id="ClienttestimonialsHeader">{x.toUpperCase()}</h1>
       </div>
 
       <div id="ReviewsWrapper">
         <div className="SingleReview">
-          <img src={User1} className="UserProfile"></img>
+          <img src={User1} className="UserProfile" alt=""></img>
           <p className="ReviewParaphraphs">
             We put our trust in sunnyside and they delvierd, marking sure our
             needs were met and deadlines were always hit.
@@ -25,7 +25,7 @@ function ClientReviews() {
           
         </div>
         <div className="SingleReview">
-          <img src={User2} className="UserProfile"></img>
+          <img src={User2} className="UserProfile" alt=""></img>
           <p className="ReviewParaphraphs">
             sunnysides's enthusiasm coupied with their keen intreset in out
             brand's sucess made it a satisfying and enjoyable experience
@@ -35,7 +35,7 @@ function ClientReviews() {
           
         </div>
         <div className="SingleReview">
-          <img src={User3} className="UserProfile"></img>
+          <img src={User3} className="UserProfile" alt=""></img>
           <p className="ReviewParaphraphs">
             incredible end result! Our sales increased over 400% when we worked
             with sunnyside. Highly recommended!
