@@ -35,10 +35,10 @@ function FooterAlbum() {
 
   return (
     <div id='FooterAlbumDiv'>
-        <img className='FooterImg' src={stateImage ? Img1Desktop : Img1Mobile}></img>
-        <img className='FooterImg' src={stateImage ? Img2Desktop : Img2Mobile}></img>
-        <img className='FooterImg'src={stateImage ? Img3Desktop : Img3Mobile}></img>
-        <img className='FooterImg'src={stateImage ? Img4Desktop : Img4Mobile}></img>
+        <img alt='' className='FooterImg' src={stateImage ? Img1Desktop : Img1Mobile}></img>
+        <img alt='' className='FooterImg' src={stateImage ? Img2Desktop : Img2Mobile}></img>
+        <img alt='' className='FooterImg'src={stateImage ? Img3Desktop : Img3Mobile}></img>
+        <img alt='' className='FooterImg'src={stateImage ? Img4Desktop : Img4Mobile}></img>
     </div>
   )
 }

@@ -10,15 +10,15 @@ function FooterBar() {
     <div id='FooterBarWrapper'>
         <h1>sunnyside</h1>
         <div id='LinksWrapper'>
-            <a>About</a>
-            <a>Service</a>
-            <a>Projects</a>
+            <a href='/'>About</a>
+            <a href='/'>Service</a>
+            <a href='/'>Projects</a>
         </div>
         <div id='SocialMediaLogoDiv'>
-          <img src={FaceBookIcon}></img>
-          <img src={Instagram}></img>
-          <img src={Twitter}></img>
-          <img src={Pinterest}></img>
+          <img alt='' src={FaceBookIcon}></img>
+          <img alt='' src={Instagram}></img>
+          <img alt='' src={Twitter}></img>
+          <img alt='' src={Pinterest}></img>
 
         </div>
     </div>
