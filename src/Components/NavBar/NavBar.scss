@@ -17,30 +17,38 @@
   justify-content: space-between;
   align-items: center;
 }
-.navBar h1 {
-  padding-left: 1%;
+.navBar {
+  h1 {
+    padding-left: 1%;
+  }
 }
 .UnOrderLists {
   list-style: none;
 }
 
-.UnOrderLists li {
-  display: inline-block;
-  padding: 0 20px;
+.UnOrderLists {
+  li {
+    display: inline-block;
+    padding: 0 20px;
+  }
 }
 
-.UnOrderLists li :hover {
-  border-radius: 40px;
-  background-color: white;
-  color: black;
+.UnOrderLists {
+  li :hover {
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+  }
 }
 
-.UnOrderLists li a {
-  transition: all 0.3s ease 0s;
-  text-decoration: none;
-  padding: 1rem;
-  box-sizing: border-box;
-  color: white;
+.UnOrderLists {
+  li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: white;
+  }
 }
 
 /* .UnOrderLists li a :hover {
@@ -72,25 +80,32 @@
     display: flex;
   }
 
-  .UnOrderLists li {
-    /* display: none; */
-    width: 100%;
-    text-align: center;
-    padding: 0px;
-
+  .UnOrderLists {
+    li {
+      /* display: none; */
+      width: 100%;
+      text-align: center;
+      padding: 0px;
+    }
   }
-  .UnOrderLists li a {
-    color: grey;
-  }
-
-  .UnOrderLists a {
-    display: block;
-    width: 100%;
+  .UnOrderLists {
+    li a {
+      color: grey;
+    }
   }
 
-  .UnOrderLists li :hover {
-  border-radius: 40px;
-  background-color: hsl(51, 100%, 49%);
-  color: black;
-}
+  .UnOrderLists {
+    a {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .UnOrderLists {
+    li :hover {
+      border-radius: 40px;
+      background-color: hsl(51, 100%, 49%);
+      color: black;
+    }
+  }
 }

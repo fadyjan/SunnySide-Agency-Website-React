@@ -1,5 +1,5 @@
 import React from "react";
-import "./ClientReviews.css";
+import "./ClientReviews.scss";
 import User1 from "../../Assets/image-emily.jpg";
 import User2 from "../../Assets/image-jennie.jpg";
 import User3 from "../../Assets/image-thomas.jpg";

@@ -1,5 +1,5 @@
 import React from 'react'
-import './FooterBar.css'
+import './FooterBar.scss'
 import FaceBookIcon from '../../Assets/icon-facebook.svg'
 import Instagram  from '../../Assets/icon-instagram.svg'
 import Pinterest from '../../Assets/icon-pinterest.svg'

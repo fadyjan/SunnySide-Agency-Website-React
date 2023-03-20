@@ -1,5 +1,5 @@
 import React from 'react'
-import './MainImgContainer.css';
+import './MainImgContainer.scss';
 import UImage from "../../Assets/image-header.jpg";
 
 function MainImgContainer() {

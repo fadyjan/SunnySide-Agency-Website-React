@@ -1,6 +1,6 @@
 import React,{useState ,useEffect} from 'react'
 
-import './FooterAlbum.css'
+import './FooterAlbum.scss'
 import Img1Desktop from '../../Assets/image-gallery-milkbottles.jpg'
 import Img1Mobile from '../../Assets/image-gallery-milkbottles-m.jpg'
 

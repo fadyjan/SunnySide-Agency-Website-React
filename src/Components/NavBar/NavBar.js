@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavBar.css";
+import "./NavBar.scss";
 import BurgerIcon from '../../Assets/icon-hamburger.svg'
 
 const NavBar = () => {

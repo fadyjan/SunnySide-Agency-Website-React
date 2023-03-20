@@ -1,5 +1,5 @@
 import React ,{useState ,useEffect} from "react";
-import "./TableContainer.css";
+import "./TableContainer.scss";
 import EggPhoto from "../../Assets/image-transform.jpg";
 import CupPhoto from "../../Assets/image-stand-out.jpg";
 
